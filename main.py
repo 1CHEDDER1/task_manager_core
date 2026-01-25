@@ -28,7 +28,7 @@ class Task:
 
 if __name__ == "__main__":
     try:
-        t = Task("")
+        t = Task("Работать")
         print(t) 
         
     except ValueError as e:
